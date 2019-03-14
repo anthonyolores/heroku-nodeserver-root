@@ -1,0 +1,19 @@
+{
+    "name": "NodeAPP",
+    "version": "1.0.0",
+    "description": "Node App Root",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "Node App Root",
+      "heroku"
+    ],
+    "author": "Anthony",
+    "license": "MIT",
+
+    "engines": {
+        "node": "11.x"
+    }
+  }
