@@ -1,6 +1,7 @@
-var http = require('http');
+var express = require('express')
+var app = express()
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/html'});
-  res.end('Hello World22!');
-}).listen(8080);
+// respond with "hello world" when a GET request is made to the homepage
+app.get('/', function (req, res) {
+  res.send('hello world')
+})

@@ -4,16 +4,18 @@
     "description": "Node App Root",
     "main": "index.js",
     "scripts": {
-      "start": "node index"
+        "start": "node index"
     },
     "keywords": [
-      "Node App Root",
-      "heroku"
+        "Node App Root",
+        "heroku"
     ],
     "author": "Anthony",
     "license": "MIT",
-
     "engines": {
         "node": "11.x"
+    },
+    "dependencies": {
+        "express": "^4.16.4"
     }
-  }
+}
